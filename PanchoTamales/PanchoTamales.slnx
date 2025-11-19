@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="PanchoTamales.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
