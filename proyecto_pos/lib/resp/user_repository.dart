@@ -1,5 +1,6 @@
 import 'dart:convert';
 import "package:get/get.dart";
+import 'package:proyecto_pos/shared_preferences/user_data_manager.dart';
 import '../models/user.dart';
 import 'package:http/http.dart' as http;
 
@@ -11,6 +12,7 @@ class UserRepository {
   // Función para REGISTRAR un nuevo usuario
   // ----------------------------------------------------------------------
   // 'Future<void>' indica que la función no devolverá datos (solo completa una acción).
+
   Future<void> registerUser({required User user}) async {
     // 1. Envía la petición HTTP (POST) al servidor
     final response = await http.post(
@@ -73,6 +75,8 @@ class UserRepository {
       final Map<String, dynamic> responsedata = jsonDecode(response.body);
       // Convierte los datos del usuario recibidos a un objeto Dart (User.fromJson)
       final user = User.fromJson(responsedata['user']);
+      await UserDataManager.saveUserData(user);
+
       // Devuelve el objeto User
       return user;
 

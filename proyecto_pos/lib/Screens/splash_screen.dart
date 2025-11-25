@@ -1,6 +1,8 @@
 import "dart:async";
-
 import "package:flutter/material.dart";
+import "package:get/route_manager.dart";
+import 'package:proyecto_pos/Screens/welcome_Screen.dart';
+import 'package:proyecto_pos/shared_preferences/user_data_manager.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -10,10 +12,21 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
+  bool isLogedin = false;
+  Future<void> setDetails() async {
+    isLogedin = await UserDataManager.hasUserData();
+  }
+
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 3), () {});
+    Timer(Duration(seconds: 3), () {
+      if (isLogedin) {
+        Get.snackbar("Sesión", "Usuario ya logeado");
+      } else {
+        Get.to(() => WelcomeScreen());
+      }
+    });
   }
 
   @override
