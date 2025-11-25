@@ -1,6 +1,6 @@
 import "dart:async";
 import "package:flutter/material.dart";
-import "package:get/route_manager.dart";
+import "package:get/get.dart";
 import 'package:proyecto_pos/Screens/welcome_Screen.dart';
 import 'package:proyecto_pos/shared_preferences/user_data_manager.dart';
 
@@ -20,6 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
+    setDetails();
     Timer(Duration(seconds: 3), () {
       if (isLogedin) {
         Get.snackbar("Sesión", "Usuario ya logeado");
