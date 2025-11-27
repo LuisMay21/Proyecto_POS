@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\Controller\\userController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controller\\userController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\routes\\usersRoute.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:models\\users.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\Controller\\userController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controller\\userController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "userController.js",
               "DocumentMoniker": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\Controller\\userController.js",
               "RelativeDocumentMoniker": "Controller\\userController.js",
@@ -39,32 +39,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-11-19T06:09:55.375Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "app.js",
-              "DocumentMoniker": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\app.js",
-              "RelativeDocumentMoniker": "app.js",
-              "ToolTip": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\app.js",
-              "RelativeToolTip": "app.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-19T06:11:24.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "usersRoute.js",
-              "DocumentMoniker": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\routes\\usersRoute.js",
-              "RelativeDocumentMoniker": "routes\\usersRoute.js",
-              "ToolTip": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\routes\\usersRoute.js",
-              "RelativeToolTip": "routes\\usersRoute.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-19T05:42:14.814Z",
               "EditorCaption": ""
             },
             {
@@ -75,9 +49,35 @@
               "RelativeDocumentMoniker": "models\\users.js",
               "ToolTip": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\models\\users.js",
               "RelativeToolTip": "models\\users.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwDUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-11-19T06:22:43.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\app.js",
+              "RelativeDocumentMoniker": "app.js",
+              "ToolTip": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\app.js",
+              "RelativeToolTip": "app.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-19T06:11:24.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "usersRoute.js",
+              "DocumentMoniker": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\routes\\usersRoute.js",
+              "RelativeDocumentMoniker": "routes\\usersRoute.js",
+              "ToolTip": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\routes\\usersRoute.js",
+              "RelativeToolTip": "routes\\usersRoute.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-19T05:42:14.814Z",
               "EditorCaption": ""
             }
           ]

@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 // Define la clase que contiene la lógica para hablar con el servidor.
 class UserRepository {
   // La dirección base del servidor backend.
-  final String sqliteUrl = "localhost:3000";
+  final String sqliteUrl = "192.168.1.6:3000";
   // ----------------------------------------------------------------------
   // Función para REGISTRAR un nuevo usuario
   // ----------------------------------------------------------------------
@@ -17,7 +17,7 @@ class UserRepository {
     // 1. Envía la petición HTTP (POST) al servidor
     final response = await http.post(
       // CONEXIÓN: Ruta de la API (DEBE SER: "$sqliteUrl/users/register" para coincidir con tu Express)
-      Uri.parse("$sqliteUrl/registerUser"),
+      Uri.parse("http://$sqliteUrl/users/register"),
       // Indica que el contenido enviado es JSON
       headers: {"content-type": "application/json"},
 
@@ -62,7 +62,7 @@ class UserRepository {
     // 1. Envía la petición HTTP (POST) al servidor
     final response = await http.post(
       // CONEXIÓN: Ruta de la API (DEBE SER: "$sqliteUrl/users/login")
-      Uri.parse("$sqliteUrl/loginUser"),
+      Uri.parse("http://$sqliteUrl/users/login"),
       headers: {"content-type": "application/json"},
       // Cuerpo: Envía el nombre de usuario y la contraseña en JSON
       body: jsonEncode({"username": username, "password": password}),

@@ -13,6 +13,11 @@ class WelcomeScreen extends StatefulWidget {
 class _WelcomeScreenState extends State<WelcomeScreen> {
   @override
   Widget build(BuildContext context) {
+    // Obtener el ancho total de la pantalla una vez
+    final screenWidth = MediaQuery.of(context).size.width;
+
+    final responsiveWidth = screenWidth > 600 ? 600.0 : screenWidth * 0.9;
+
     return Scaffold(
       body: Stack(
         children: <Widget>[
@@ -26,12 +31,15 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           Center(
             child: Container(
               decoration: BoxDecoration(
-                color: Colors.grey,
+                color: Colors.grey.withOpacity(
+                  0.9,
+                ), // Hacerlo semi-transparente
                 borderRadius: BorderRadius.circular(10),
               ),
-              width: 600,
 
-              padding: EdgeInsets.only(
+              width: responsiveWidth,
+
+              padding: const EdgeInsets.only(
                 left: 20,
                 right: 20,
                 top: 40,
@@ -46,27 +54,28 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 children: <Widget>[
                   Text(
                     "Bienvenido a Pancho Tamales",
-                    style: TextStyle(
+                    style: const TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Colors.black,
                       fontSize: 26,
                     ),
                   ),
 
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
+
                   InkWell(
                     onTap: () {
-                      // Get.to(() => LoginScreen());
+                      Get.to(() => LoginScreen());
                     },
                     child: Container(
                       width: double.infinity,
                       height: 50,
+                      // ... (estilos del botón)
                       decoration: BoxDecoration(
                         color: Colors.deepOrange,
                         borderRadius: BorderRadius.circular(10),
                       ),
-
-                      child: Center(
+                      child: const Center(
                         child: Text(
                           "Iniciar Sesión",
                           style: TextStyle(
@@ -79,21 +88,23 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                     ),
                   ),
 
-                  SizedBox(height: 10),
+                  const SizedBox(height: 10),
 
+                  // Botón Registrarse
                   InkWell(
                     onTap: () {
-                      //Get.to(() => RegisterScreen());
+                      Get.to(() => RegisterScreen());
                     },
                     child: Container(
                       width: double.infinity,
                       height: 50,
+                      // ... (estilos del botón)
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(10),
                         border: Border.all(color: Colors.deepOrange),
                       ),
-                      child: Center(
+                      child: const Center(
                         child: Text(
                           "Registrarse",
                           style: TextStyle(

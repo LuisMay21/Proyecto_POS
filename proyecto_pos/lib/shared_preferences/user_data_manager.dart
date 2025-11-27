@@ -15,7 +15,7 @@ class UserDataManager {
     // 3. Verifica si se encontró alguna cadena de texto (si la sesión está activa).
     if (userJson != null) {
       // 4. Usa jsonDecode para convertir la cadena JSON de vuelta a un mapa de datos (Map<String, dynamic>).
-      final Map<String, dynamic> userMap = jsonDecode(userJson);
+      final Map<String, dynamic> userMap = json.decode(userJson);
       // 5. Crea un objeto User real usando el constructor factory fromJson de tu modelo.
       final User user = User.fromJson(userMap);
       // 6. Devuelve el objeto User cargado.
@@ -27,15 +27,16 @@ class UserDataManager {
   }
 
   // Función estática para guardar un objeto User en la memoria.
-  static Future<void> saveUserData(User user) async {
+  static Future<void> saveUserData(User userJson) async {
     // 1. Obtiene la instancia de SharedPreferences.
     final prefs = await SharedPreferences.getInstance();
 
+    String user = json.encode(userJson.toJson());
     // 2. Guarda la cadena de texto JSON:
     //    a. user.toJson(): Convierte el objeto User a un mapa de datos.
     //    b. jsonEncode(): Convierte ese mapa de datos a una cadena de texto JSON.
     //    c. setString: Guarda la cadena de texto JSON con la clave 'userJson'.
-    await prefs.setString('userJson', jsonEncode(user.toJson()));
+    await prefs.setString('userJson', user);
   }
 
   // Función estática para verificar rápidamente si existe una sesión guardada.
