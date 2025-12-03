@@ -38,6 +38,7 @@ dependencies:
   get: any
   geocoding: any
   shared_preferences : any
+  intl: any
 
 dev_dependencies:
   flutter_test:

@@ -13,7 +13,7 @@ class UserRepository {
   // ----------------------------------------------------------------------
   // 'Future<void>' indica que la función no devolverá datos (solo completa una acción).
 
-  Future<void> registerUser({required User user}) async {
+  Future<bool> registerUser({required User user}) async {
     // 1. Envía la petición HTTP (POST) al servidor
     final response = await http.post(
       // CONEXIÓN: Ruta de la API (DEBE SER: "$sqliteUrl/users/register" para coincidir con tu Express)
@@ -36,6 +36,7 @@ class UserRepository {
       final String message = responsedata['message'];
       // Muestra una notificación de éxito
       Get.snackbar("Registro ", message);
+      return true;
 
       // Error Interno del Servidor (500)
     } else if (response.statusCode == 500) {
@@ -43,11 +44,13 @@ class UserRepository {
       final String message = responsedata['message'];
       // Muestra una notificación de error interno
       Get.snackbar("Registro", message);
+      return false;
 
       // Otros Errores (400 Bad Request, 409 Conflict, etc.)
     } else {
       // Muestra una notificación de error genérico
       Get.snackbar("Registro", "Error al registrar usuario");
+      return false;
     }
   }
 

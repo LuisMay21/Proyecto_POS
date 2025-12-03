@@ -65,13 +65,10 @@ class _LoginScreenState extends State<LoginScreen> {
           colorText: Colors.white,
         );
 
-        // 5. SOLUCIÓN ALTERNATIVA AL BUG DE OVERLAY:
-        // Navegar a Home después de que el snackbar haya tenido tiempo de iniciarse (mediante PostFrameCallback o microtask).
-        // NOTA: Get.offAll() ya maneja bien esto, pero si falla, esta es la solución.
         WidgetsBinding.instance.addPostFrameCallback((_) {
           // 6. Navegación Segura: Usar Get.offAll() para ir a Home (HOME)
           // Se usa addPostFrameCallback para asegurar que la UI se haya actualizado completamente.
-          Get.offAll(() => const Placeholder()); // Reemplaza con tu HomeScreen
+          Get.to(HomeScreen()); // Reemplaza con tu HomeScreen
         });
       }
     } catch (e) {
