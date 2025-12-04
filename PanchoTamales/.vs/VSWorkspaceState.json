@@ -1,10 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\config",
     "\\Controller",
+    "\\data",
     "\\models",
     "\\routes"
   ],
-  "SelectedNode": "\\config",
+  "SelectedNode": "\\routes\\categoryRoute.js",
   "PreviewInSolutionExplorer": false
 }

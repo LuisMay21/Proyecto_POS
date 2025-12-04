@@ -12,7 +12,7 @@ class User {
   factory User.fromJson(Map<String, dynamic> json) {
     return User(
       // Usamos 'id' si viene del JSON, si no, usamos el 'name'
-      id: json['id'] != null ? json['id'] as int : null,
+      id: json['user_id'] != null ? json['user_id'] as int : null,
       name: json['name'] as String?,
       username: json['username'] as String?,
       // La contraseña no viene en el login, pero se incluye en el modelo

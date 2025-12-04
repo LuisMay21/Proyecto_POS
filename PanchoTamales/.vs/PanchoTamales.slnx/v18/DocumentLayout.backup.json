@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\models\\users.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:models\\users.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\routes\\categoryRoute.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:routes\\categoryRoute.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\Controller\\categoryController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controller\\categoryController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\models\\users.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:models\\users.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\models\\category.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:models\\category.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\routes\\usersRoute.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:routes\\usersRoute.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\config\\database.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:config\\database.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\Controller\\userController.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -26,49 +42,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "categoryRoute.js",
+              "DocumentMoniker": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\routes\\categoryRoute.js",
+              "RelativeDocumentMoniker": "routes\\categoryRoute.js",
+              "ToolTip": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\routes\\categoryRoute.js",
+              "RelativeToolTip": "routes\\categoryRoute.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-04T04:35:07.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "categoryController.js",
+              "DocumentMoniker": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\Controller\\categoryController.js",
+              "RelativeDocumentMoniker": "Controller\\categoryController.js",
+              "ToolTip": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\Controller\\categoryController.js",
+              "RelativeToolTip": "Controller\\categoryController.js",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAFoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-04T04:27:48.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "database.js",
+              "DocumentMoniker": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\config\\database.js",
+              "RelativeDocumentMoniker": "config\\database.js",
+              "ToolTip": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\config\\database.js",
+              "RelativeToolTip": "config\\database.js",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-04T03:51:27.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "userController.js",
               "DocumentMoniker": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\Controller\\userController.js",
               "RelativeDocumentMoniker": "Controller\\userController.js",
               "ToolTip": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\Controller\\userController.js",
               "RelativeToolTip": "Controller\\userController.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACkAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-19T06:09:55.375Z"
+              "WhenOpened": "2025-11-19T06:09:55.375Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "category.js",
+              "DocumentMoniker": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\models\\category.js",
+              "RelativeDocumentMoniker": "models\\category.js",
+              "ToolTip": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\models\\category.js",
+              "RelativeToolTip": "models\\category.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-04T03:38:12.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "users.js",
               "DocumentMoniker": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\models\\users.js",
               "RelativeDocumentMoniker": "models\\users.js",
               "ToolTip": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\models\\users.js",
               "RelativeToolTip": "models\\users.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-11-19T06:22:43.812Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "app.js",
               "DocumentMoniker": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\app.js",
               "RelativeDocumentMoniker": "app.js",
               "ToolTip": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\app.js",
               "RelativeToolTip": "app.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-11-19T06:11:24.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "usersRoute.js",
               "DocumentMoniker": "C:\\Users\\SkullHunter11\\Documents\\Proyecto\\Proyecto_POS\\PanchoTamales\\routes\\usersRoute.js",
               "RelativeDocumentMoniker": "routes\\usersRoute.js",
@@ -76,7 +145,8 @@
               "RelativeToolTip": "routes\\usersRoute.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-19T05:42:14.814Z"
+              "WhenOpened": "2025-11-19T05:42:14.814Z",
+              "EditorCaption": ""
             }
           ]
         }

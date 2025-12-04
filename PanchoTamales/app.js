@@ -4,6 +4,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var cors = require('cors');
 var usersRoute = require('./routes/usersRoute');
+var categoryRoute = require('./routes/categoryRoute');
 
 var app = express();
 
@@ -24,6 +25,7 @@ app.use(urlencodedParser);
 
 // 3. RUTAS
 app.use('/users', usersRoute); // ⬅️ Rutas al FINAL
+app.use('/categories', categoryRoute);
 
 // start server
 var port = 3000;

@@ -39,7 +39,7 @@ dependencies:
   geocoding: any
   shared_preferences : any
   intl: any
-
+  rxdart: ^0.27.7
 dev_dependencies:
   flutter_test:
     sdk: flutter

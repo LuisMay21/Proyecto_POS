@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import "package:get/get.dart";
 import 'package:intl/intl.dart';
+import 'package:proyecto_pos/Screens/welcome_Screen.dart';
 import 'package:proyecto_pos/shared_preferences/user_data_manager.dart';
 import 'package:proyecto_pos/models/user.dart';
+import 'package:proyecto_pos/widgets/home_screen_pages.dart';
 import "dart:async";
 
 import 'package:proyecto_pos/widgets/sidebar_child.dart';
@@ -133,10 +136,12 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
 
                         SidebarChild(
-                          onTap: () {
+                          onTap: () async {
                             setState(() {
                               selectedPage = 4;
                             });
+                            await UserDataManager.clearUserData();
+                            Get.to(() => WelcomeScreen());
                           },
                           icon: Icons.exit_to_app,
                           selectedItem: selectedPage,
@@ -144,6 +149,10 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       ],
                     ),
+                  ),
+                  Container(
+                    width: MediaQuery.of(context).size.width * 0.9,
+                    child: HomeScreenPages(selectedPage: selectedPage),
                   ),
                 ],
               ),

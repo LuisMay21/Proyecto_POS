@@ -1,6 +1,5 @@
 import "package:flutter/material.dart";
 import "package:get/route_manager.dart";
-import 'package:geocoding/geocoding.dart';
 import 'package:proyecto_pos/resp/user_repository.dart';
 import 'package:proyecto_pos/models/user.dart';
 import 'package:proyecto_pos/Screens/login_Screen.dart';
